@@ -13,7 +13,7 @@ monthly_challenges = { 'january':'dont eat trash',
                       'february' : 'exercise daily',
                       'march':'be good person',
                       'april' : 'walk green',
-                      'may' : 'scooping'}
+                      'may' : None}
 
 
 def monthly_challenge(request, month):
