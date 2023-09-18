@@ -20,7 +20,7 @@ def monthly_challenge(request, month):
     try:
         challenge_text = monthly_challenges[month]
         return render(request,'challenges/challenge.html',{'text':challenge_text,
-        'month_name':month.capitalize()})
+        'month_name':month})
     except:
         return HttpResponseNotFound('This month not supported')
 def index(request):
